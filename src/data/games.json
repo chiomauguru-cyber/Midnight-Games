@@ -1,44 +1,9 @@
 [
   {
-    "id": "2048",
-    "title": "2048",
-    "description": "Join the numbers and get to the 2048 tile!",
-    "thumbnail": "https://picsum.photos/seed/2048/400/300",
-    "iframeUrl": "https://play2048.co/"
-  },
-  {
-    "id": "hextris",
-    "title": "Hextris",
-    "description": "Fast-paced puzzle game inspired by Tetris.",
-    "thumbnail": "https://picsum.photos/seed/hextris/400/300",
-    "iframeUrl": "https://hextris.io/"
-  },
-  {
-    "id": "flappy-bird",
-    "title": "Flappy Bird Clone",
-    "description": "Fly through the pipes without hitting them.",
-    "thumbnail": "https://picsum.photos/seed/flappy/400/300",
-    "iframeUrl": "https://wayou.github.io/FlappyBird/"
-  },
-  {
-    "id": "pacman",
-    "title": "Pac-Man",
-    "description": "Classic arcade game. Eat all the dots!",
-    "thumbnail": "https://picsum.photos/seed/pacman/400/300",
-    "iframeUrl": "https://macek.github.io/google_pacman/"
-  },
-  {
-    "id": "snake",
-    "title": "Snake",
-    "description": "The classic snake game. Grow as long as you can.",
-    "thumbnail": "https://picsum.photos/seed/snake/400/300",
-    "iframeUrl": "https://patorjk.com/games/snake/"
-  },
-  {
-    "id": "tetris",
-    "title": "Tetris",
-    "description": "The world's most popular puzzle game.",
-    "thumbnail": "https://picsum.photos/seed/tetris/400/300",
-    "iframeUrl": "https://tetris.com/play-tetris"
+    "id": "basket-hoop",
+    "title": "Basket Hoop",
+    "description": "A fun basketball shooting game.",
+    "thumbnail": "https://picsum.photos/seed/basket-hoop/400/300",
+    "iframeUrl": "https://dnrweqffuwjtx.cloudfront.net/games/2024/construct/311/basket-hoop/index.html"
   }
 ]
