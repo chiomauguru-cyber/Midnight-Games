@@ -3,11 +3,36 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Google AI Studio App</title>
+    <title>Unblocked Games Hub</title>
+    <style>
+      body { 
+        background-color: #0a0502; 
+        color: #ffffff; 
+        font-family: system-ui, -apple-system, sans-serif;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+      }
+      .loading-container { text-align: center; }
+      .spinner { 
+        width: 40px; height: 40px; border: 4px solid rgba(255,255,255,0.1); 
+        border-top-color: #10b981; border-radius: 50%; 
+        animation: spin 1s linear infinite; margin: 0 auto 20px;
+      }
+      @keyframes spin { to { transform: rotate(360deg); } }
+    </style>
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="./src/main.jsx"></script>
+    <div id="root">
+      <div class="loading-container">
+        <div class="spinner"></div>
+        <p>Loading Games...</p>
+        <noscript>This app requires JavaScript to run.</noscript>
+      </div>
+    </div>
+    <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
 
