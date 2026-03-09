@@ -110,10 +110,15 @@ export default function App() {
                   </button>
                 )}
                 <iframe
+                  id="innerFrame"
+                  name="innerFrame"
                   src={selectedGame.iframeUrl}
                   className="w-full h-full border-none"
                   allow="fullscreen; autoplay; encrypted-media"
+                  allowFullScreen
+                  sandbox="allow-scripts allow-popups allow-forms allow-same-origin allow-popups-to-escape-sandbox allow-downloads allow-storage-access-by-user-activation"
                   title={selectedGame.title}
+                  style={{ overflow: 'auto' }}
                 />
               </div>
 
